@@ -28,7 +28,7 @@ body {
 
 #brand .emphasize {
     color: white;
-    background-color: #6EFFAC;
+    background-color: #C22BFF;
     height: 20px;
     border-radius: 5px;
     padding: 5px;
@@ -45,7 +45,7 @@ body {
 }
 
 .link {
-    color: #04B404;
+    color: #C22BFF;
     margin: 0 20px;
     transition: color 0.2s;
 }
@@ -59,7 +59,7 @@ body {
 #hero {
     margin-top: 60px;
     height: 500px;
-    background: linear-gradient(to right, #9CFEC6, #6EFFAC);
+    background: linear-gradient(to right, #2B3EFF, #C22BFF, #FF2B2B);
     
     display: flex;
     flex-direction: column;
