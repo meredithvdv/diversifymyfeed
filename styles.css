@@ -1,6 +1,11 @@
 body {
     position: relative;
     font-family: 'Rubik', sans-serif;
+    height: 100%;
+}
+
+html{
+    height: 100%;
 }
 
 /* NavBar */
@@ -37,6 +42,7 @@ body {
 .links {
     height: 100%;
     width: 100%;
+    font-size: 20px;
 
     display: flex;
     flex-direction: row;
@@ -54,6 +60,20 @@ body {
     color: black;
 }
 
+.parallax { 
+    /* The image used */
+    background: linear-gradient(to right, #2B3EFF, #C22BFF, #FF2B2B);
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* Hero */
 
 #hero {
@@ -65,6 +85,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    align-content: center;
 }
 
 #hero h1 {
@@ -79,7 +100,7 @@ body {
     font-size: 60px;
     margin-top: 60px;
     height: 200px;
-    background: linear-gradient(to right, #04B404, #CEF6CE);
+    background: linear-gradient(to right, #2B3EFF, #C22BFF, #FF2B2B);
     
     display: flex;
     flex-direction: column;
@@ -94,6 +115,7 @@ body {
 #hero .divider {
     width: 100px;
     background-color: black;
+    align-content: center;
 }
 
 #hero .description {
@@ -104,9 +126,10 @@ body {
     font-size: 40px;
 }
 
-#hero .twitter-button {
-    width: 200px;
-    height: 100px;
+#hero .twitter-button img {
+    width: 250px;
+    height: 50px;
+    align-content: center;
     padding: 10px 15px;
     transition: all 0.2s;
 }
@@ -123,7 +146,7 @@ body {
     display: flex;
     flex-direction: row;
     
-    padding: 30px;
+    padding: 10px;
 }
 
 #features .feature {
@@ -145,6 +168,6 @@ body {
 }
 
 .feature img {
-    height: 100px;
+    height: 80px;
     padding: 10px;
 }
