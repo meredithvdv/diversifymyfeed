@@ -1,6 +1,11 @@
 body {
     position: relative;
     font-family: 'Rubik', sans-serif;
+    height: 100%;
+}
+
+html{
+    height: 100%;
 }
 
 /* NavBar */
@@ -53,6 +58,20 @@ body {
 
 .link:hover {
     color: black;
+}
+
+.parallax { 
+    /* The image used */
+    background: linear-gradient(to right, #2B3EFF, #C22BFF, #FF2B2B);
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Hero */
