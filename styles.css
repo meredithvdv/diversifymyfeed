@@ -65,6 +65,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    align-content: center;
 }
 
 #hero h1 {
@@ -79,7 +80,7 @@ body {
     font-size: 60px;
     margin-top: 60px;
     height: 200px;
-    background: linear-gradient(to right, #04B404, #CEF6CE);
+    background: linear-gradient(to right, #2B3EFF, #C22BFF, #FF2B2B);
     
     display: flex;
     flex-direction: column;
@@ -94,6 +95,7 @@ body {
 #hero .divider {
     width: 100px;
     background-color: black;
+    align-content: center;
 }
 
 #hero .description {
@@ -107,6 +109,7 @@ body {
 #hero .twitter-button {
     width: 200px;
     height: 100px;
+    align-content: center;
     padding: 10px 15px;
     transition: all 0.2s;
 }
@@ -123,7 +126,7 @@ body {
     display: flex;
     flex-direction: row;
     
-    padding: 30px;
+    padding: 10px;
 }
 
 #features .feature {
@@ -145,6 +148,6 @@ body {
 }
 
 .feature img {
-    height: 100px;
+    height: 80px;
     padding: 10px;
 }
