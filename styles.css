@@ -28,7 +28,7 @@ body {
 
 #brand .emphasize {
     color: white;
-    background-color: #04B404;
+    background-color: #6EFFAC;
     height: 20px;
     border-radius: 5px;
     padding: 5px;
@@ -59,7 +59,7 @@ body {
 #hero {
     margin-top: 60px;
     height: 500px;
-    background: linear-gradient(to right, #04B404, #CEF6CE);
+    background: linear-gradient(to right, #9CFEC6, #6EFFAC);
     
     display: flex;
     flex-direction: column;
@@ -117,12 +117,13 @@ body {
 
 /* Features */
 #features {
-    margin-top: 20px;
+    margin-top: 10px;
+    margin-bottom:  10px; 
 
     display: flex;
     flex-direction: row;
     
-    padding: 0 60px;
+    padding: 30px;
 }
 
 #features .feature {
@@ -145,4 +146,5 @@ body {
 
 .feature img {
     height: 100px;
+    padding: 10px;
 }
