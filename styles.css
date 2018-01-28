@@ -52,21 +52,11 @@ html{
     z-index: 1;
 }
 
-#brand {
+#brand img {
     height: 100%;
-    color: #C22BFF;
-    font-weight: 500;
     position: absolute;
     line-height: 60px;
     left: 60px;
-}
-
-#brand .emphasize {
-    color: white;
-    background-color: #C22BFF;
-    height: 20px;
-    border-radius: 5px;
-    padding: 5px;
 }
 
 .links {
