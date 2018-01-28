@@ -8,6 +8,25 @@ html{
     height: 100%;
 }
 
+/* ---- Start parallax ---- */
+
+.parallax { 
+    /* The image used */
+    
+#slide1:before {
+  background-image: image(sheHacks2.jpg);
+  transform: translateZ(-1px) scale(2);
+  z-index:-1;
+}
+}
+
+
+/* ---- End parallax ---- */
+
+
+
+
+
 /* NavBar */
 
 #navbar {
@@ -24,7 +43,7 @@ html{
 
 #brand {
     height: 100%;
-    color: black;
+    color: #C22BFF;
     font-weight: 500;
     position: absolute;
     line-height: 60px;
@@ -60,25 +79,19 @@ html{
     color: black;
 }
 
-.parallax { 
-    /* The image used */
-    background: linear-gradient(to right, #2B3EFF, #C22BFF, #FF2B2B);
+/* Frm1 */
 
-    /* Full height */
-    height: 100%; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+#frm1 {
+    
 }
+
 
 /* Hero */
 
 #hero {
-    margin-top: 60px;
-    height: 500px;
+    padding-top: 10%;
+    padding-bottom: 5%;
+   
     background: linear-gradient(to right, #2B3EFF, #C22BFF, #FF2B2B);
     
     display: flex;
@@ -88,25 +101,50 @@ html{
     align-content: center;
 }
 
+#hero2 {
+    padding-top: 2%;
+    padding-bottom: 0%;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: white;
+    color: #C22BFF;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    align-content: left;
+    padding-left: 10%;
+}
+
+#hero2 .description {
+    text-align: left;
+    line-height: 30px;
+    font-weight: 300;
+    font-size: 20px;
+    color: black;
+}
+
 #hero h1 {
     margin: 0;
     font-weight: 500;
     font-size: 60px;
 }
 
-#hero2 h1 {
-    margin: 0;
-    font-weight: 500;
-    font-size: 60px;
-    margin-top: 60px;
-    height: 200px;
+#hero3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
     background: linear-gradient(to right, #2B3EFF, #C22BFF, #FF2B2B);
     
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    align-content: center;
 }
+
+
 
 .divider {
     height: 1px;
@@ -121,7 +159,6 @@ html{
 #hero .description {
     text-align: center;
     line-height: 30px;
-    max-width: 400px;
     font-weight: 300;
     font-size: 40px;
 }
@@ -130,7 +167,7 @@ html{
     width: 250px;
     height: 50px;
     align-content: center;
-    padding: 10px 15px;
+    padding: 10px 10px;
     transition: all 0.2s;
 }
 
