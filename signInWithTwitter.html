@@ -1,5 +1,6 @@
 <html lang="eng-US">
     <head>
+        <script type='text/javascript' src='/working/directory/bot.js'></script>
         <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500" rel="stylesheet">
         <link href="reset.css" rel="stylesheet">
         <link href="styles.css" rel="stylesheet">
@@ -10,9 +11,9 @@
     <body>
         <!-- Navbar -->
         <nav id="navbar">
-            <a id="brand" href="index.html"><span class="emphasize">Diversify</span> My Feed</a>
+            <a id="brand" href="#"><span class="emphasize">Diversify</span> My Feed</a>
             <div class="links">
-                <a class="link" href="#">Home</a>
+                <a class="link" href="index.html">Home</a>
                 <a class="link" href="aboutPage.html">About Diversify</a>
                 <a class="link" href="aboutUsPage.html">About The Team</a>
             </div>
@@ -25,10 +26,22 @@
         <!-- Hero -->
         <div id="hero">
             <br>
-            <h1>Are you trapped in a bubble of your own bias?</h1><br><br><br>
+            <h2>Please enter your twitter handle below:</h2><br><br><br>
+            
+            <!-- frm1 -->
+            <form id="frm1" action="/action_page.php">
+                Enter your twitter handle: @ <input type="text" name="fname">
+                <input type="button" onclick="myFunction()" value="Submit">
+            </form>
+            
             <div class="divider"></div><br>
-            <p class="description"> Let's break you out of it.</p>
-            <a class ="twitter-button" href="signInWithTwitter.html"> <img src="https://g.twimg.com/dev/sites/default/files/images_documentation/sign-in-with-twitter-gray.png"></a>
+
+<script>
+function myFunction() {
+    document.getElementById("frm1").submit();
+}
+</script>
+            
         </div>
             
     
@@ -86,9 +99,11 @@
         
         <!-- Hero2 -->
         <div id="hero2">
-            <h2>Tired of the filter bubble in your social media news feed? Sign in to let us analyze your newsfeed.</h2>
+            <h1>Why your twitter?</h1>
             <div class="divider"></div>
+            <h2 class= "description">We use your twitter profile to access the news sources you follow. Our twitter-bot returns these sources to our hand-crafted algorithym that uses empirical data to analyze your placement on the news source spectrum of left-right bias.</h2>
         </div>
+        
         
     </body>
 </html>
