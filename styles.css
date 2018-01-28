@@ -12,19 +12,30 @@ html{
 
 .parallax { 
     /* The image used */
-    
-#slide1:before {
-  background-image: image(sheHacks2.jpg);
-  transform: translateZ(-1px) scale(2);
-  z-index:-1;
-}
+
+  background: url('group.jpg') no-repeat center;
+  background-size: contain;
+  background-attachment: scroll;
+  height: 455px;
 }
 
+.parallax2 { 
+    /* The image used */
+
+  background: url('floor.jpg') no-repeat center;
+  background-size: cover;
+  background-attachment:fixed;
+  height: 500px;
+}
 
 /* ---- End parallax ---- */
 
 
+/* Container */
 
+.container {
+    background: white;
+}
 
 
 /* NavBar */
@@ -92,7 +103,8 @@ html{
     padding-top: 10%;
     padding-bottom: 5%;
    
-    background: linear-gradient(to right, #2B3EFF, #C22BFF, #FF2B2B);
+    background: linear-gradient(to right, #2B3EFF, #C22BFF, #FF2B2B) no-repeat;
+    background-attachment: fixed;
     
     display: flex;
     flex-direction: column;
@@ -142,6 +154,9 @@ html{
     justify-content: center;
     align-items: center;
     align-content: center;
+    
+    background-size: contain;
+    border-image-width: contain;
 }
 
 
@@ -165,7 +180,7 @@ html{
 
 #hero .twitter-button img {
     width: 250px;
-    height: 75px;
+    height: 63px;
     align-content: center;
     padding: 10px 10px;
     transition: all 0.2s;

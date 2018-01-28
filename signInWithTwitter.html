@@ -11,7 +11,7 @@
     <body>
         <!-- Navbar -->
         <nav id="navbar">
-            <a id="brand" href="#"><span class="emphasize">Diversify</span> My Feed</a>
+            <a id="brand" href="index.html"><span class="emphasize">Diversify</span> My Feed</a>
             <div class="links">
                 <a class="link" href="index.html">Home</a>
                 <a class="link" href="aboutPage.html">About Diversify</a>
@@ -20,8 +20,6 @@
         </nav>
 
         
-    <section class="parallax">
-        <div class="parallax-inner">
         
         <!-- Hero -->
         <div id="hero">
@@ -29,24 +27,21 @@
             <h2>Please enter your twitter handle below:</h2><br><br><br>
             
             <!-- frm1 -->
-            <form id="frm1" action="/action_page.php">
+            <form id="frm1" action="newsLine.html">
                 Enter your twitter handle: @ <input type="text" name="fname">
-                <input type="button" onclick="myFunction()" value="Submit">
+                <input type="button" name="handle" onclick="myFunction()" onclick="window.location='newsLine.html'" value="Submit">
             </form>
             
             <div class="divider"></div><br>
 
-<script>
-function myFunction() {
-    document.getElementById("frm1").submit();
-}
-</script>
+            <script>
+                function myFunction() {
+                    document.getElementById("frm1").submit();
+                }
+            </script>
             
         </div>
-            
-    
-        </div>
-    </section>
+          
 
         
         
@@ -97,18 +92,24 @@ function myFunction() {
             </div>   
         </div>
         
+        <div id="hero3">
+        </div>
+        
         <!-- Hero2 -->
         <div id="hero2">
             <h1>Why your twitter?</h1>
             <div class="divider"></div>
-            <h2 class= "description">We use your twitter profile to access the news sources you follow. Our twitter-bot returns these sources to our hand-crafted algorithym that uses empirical data to analyze your placement on the news source spectrum of left-right bias.</h2>
+            <h2 class= "description">We use your twitter profile to access the news sources you follow. Our twitter-bot returns these sources to our hand-crafted algorithym that uses empirical data to analyze your placement on the news source spectrum of left-right bias.</h2><br><br>
+        </div>
+        
+        <div id="hero3">
         </div>
         
         <!-- Hero2 -->
         <div id="hero2">
             <h1>What about other sources?</h1>
             <div class="divider"></div>
-            <h2 class= "description">We are planning to expand to other platforms, such as facebook, in future versions! For now, we decided to tackle twitter, as it seems to be as much of a news platform as it is a social media hub.</h2>
+            <h2 class= "description">We are planning to expand to other platforms, such as facebook, in future versions! For now, we decided to tackle twitter, as it seems to be as much of a news platform as it is a social media hub.</h2><br><br>
         </div>
         
         
