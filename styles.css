@@ -214,8 +214,9 @@ html{
 *,
 *::before,
 *::after {
-  margin: 0;
-  padding: 0;
+  justify-content: center;
+    align-items: center;
+    align-content: center;
   box-sizing: border-box;
 }
 
@@ -231,13 +232,17 @@ body {
 
 .section {
   background: #F45B69;
-  padding: 50px 0;
+  justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .section .container {
   width: 90%;
   max-width: 1200px;
-  margin: 0 auto;
+  justify-content: center;
+    align-items: center;
+    align-content: center;
   text-align: center;
 }
 
@@ -257,15 +262,19 @@ body {
 *,
 *::before,
 *::after {
-  margin: 0;
-  padding:0;
+  justify-content: center;
+    align-items: center;
+    align-content: center;
   box-sizing: border-box;
 }
 
 body {
   font: normal 16px/1.5 "Helvetica Neue", sans-serif;
-  background: #456990;
+  background: white;
   color: #fff;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 
@@ -274,13 +283,15 @@ body {
 
 .section {
   background: #F45B69;
-  padding: 30px 0;
+  justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .section .container {
   width: 90%;
   max-width: 1200px;
-  margin: 0 auto;
+  
   text-align: center;
 }
 
@@ -304,7 +315,11 @@ body {
 .timeline ol {
   font-size: 0;
   width: 100vw;
-  padding: 250px 0;
+  padding: 270px 100px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
   transition: all 1s;
 }
 
@@ -314,7 +329,7 @@ body {
   list-style-type: none;
   width: 160px;
   height: 3px;
-  background: #fff;
+  background: #EBDEF0;
 }
 
 .timeline ol li:last-child {
@@ -342,11 +357,11 @@ body {
   position: absolute;
   left: calc(100% + 7px);
   width: 225px;
-  padding: 5px;
+    align-content: center;
   font-size: 1rem;
   white-space: normal;
   color: black;
-  background: white;
+  background: #EBDEF0;
   
 }
 
